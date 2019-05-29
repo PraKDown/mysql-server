@@ -11,51 +11,87 @@ const { JSDOM } = jsdom;
 
 async function connect(u, p) {
   return await mysql.createConnection({
-    host: 'localhost',
+    host: '185.127.25.72',
     user: u,
     password: p,
-    database: 'anime'
+    database: 'gameservice'
   })
 }
 
-const connections = [];
+const connections = {};
 
-// mysql.createConnection({
-//   host: 'localhost',
-//   user: 'root',
-//   password: '',
-//   database: 'anime'
-// }).then(function(conn){
-//   var result = conn.query('show profiles');
-//   let k;
-//   result.then(value => {
-//     k = value;
-//     console.log(value);
-//   })
-//   conn.end();
-// });
+async function parseItems(token) {
+  const connection = connections[token];
+  let id_items = 0;
+  await request('https://dota2.gamepedia.com/Items', (err, res, body) => {
+    if (err) return console.log(err);
+    const rows = (new JSDOM(body)).window.document.querySelectorAll('div.itemlist > div');
+    let text = '';
+    rows.forEach((elem) => {
+      id_items++;
+      const name = elem.querySelector('a:nth-child(2)').textContent;
+      const elem_value = elem.querySelector('span:nth-child(3)');
+      let value = 0;
+      if (elem_value !== null) value = +elem_value.textContent.split('(')[1].slice(0, -1);
+      text += `${id_items};${name};${value}\n`
+    })
+    fs.writeFile('./base/items.txt', text, (err, data) => {});
+  });
 
-async function parseInvent() {
-  await download('https://market.dota2.net/itemdb/items_570_1559082507.csv', './base');
-  mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'anime'
-}).then(function(conn){
-  conn.query(`LOAD DATA LOCAL INFILE './base/items_570_1559082507.csv' 
-  INTO TABLE tab
+  await connection.query(`LOAD DATA LOCAL INFILE './base/items.txt' 
+    INTO TABLE items
+    FIELDS TERMINATED BY ';' 
+    LINES TERMINATED BY '\n'`);
+  return id_items;
+}
+
+async function parsePlayers(token) {
+  const connection = connections[token];
+  let id_player = 0;
+  await request('https://dota2.gamepedia.com/Professional_players', (err, res, body) => {
+    if (err) return console.log(err);
+    const rows = (new JSDOM(body)).window.document.querySelectorAll('table.wikitable > tbody > tr');
+    let text = '';
+    rows.forEach((elem, index) => {
+      if (index !== 0) {
+        id_player++;
+        const nickname = elem.querySelector('td:nth-child(1) a').textContent;
+        const name = elem.querySelector('td:nth-child(2)').textContent;
+        const country = elem.querySelector('td:nth-child(3)').textContent.slice(1);
+        const team_elem = elem.querySelector('td:nth-child(4) a:nth-child(2)');
+        let team = '';
+        if (team_elem !== null) team = team_elem.textContent;
+        text += `${id_player};${nickname};${name};${country};${team}\n`
+      }
+    })
+    fs.writeFile('./base/players.txt', text, (err, data) => {});
+  });
+  await connection.query(`LOAD DATA LOCAL INFILE './base/players.txt' 
+    INTO TABLE players
+    FIELDS TERMINATED BY ';' 
+    LINES TERMINATED BY '\n'`);
+  return id_player;
+}
+
+async function parseInvent(token) {
+  const connection = connections[token];
+  let base = ''
+  await request('https://market.dota2.net/itemdb/current_570.json', (err, res, body) => {
+    base = JSON.parse(body).db;
+  })
+  await download(`https://market.dota2.net/itemdb/${base}`, './base');
+  await connection.query(`LOAD DATA LOCAL INFILE './base/${base}' 
+  INTO TABLE inventory
   FIELDS TERMINATED BY ';' 
   ENCLOSED BY '"'
   LINES TERMINATED BY '\n'
-  IGNORE 1 LINES;`).then(() => console.log('ready'));
-  conn.end();
-});
-
+  IGNORE 1 LINES;`);
+  return await connection.query('SELECT COUNT(*) FROM inventory').then(value => value[0]['COUNT(*)']);
 }
 
 
-async function parseHeroes() {
+async function parseHeroes(token) {
+  const connection = connections[token];
   let text = '';
   let id_hero = 0;
 
@@ -98,6 +134,10 @@ async function parseHeroes() {
   }
 
   fs.writeFile('./base/heroes.txt', text, (err, data) => {});
+  await connection.query(`LOAD DATA LOCAL INFILE './base/heroes.txt' 
+    INTO TABLE heroes
+    FIELDS TERMINATED BY ';' 
+    LINES TERMINATED BY '\n'`);
   return id_hero;
 }
 
@@ -113,16 +153,27 @@ app.get('/request', (req, res) => {
   if (result.action === 'create') {
     connect(result.u, result.p).then(connector => {
       const token = cryptoRandomString({length: 10});
-      const connection = {};
-      connection[token] = connector;
-      connections.push(connection)
+      connections[token] = connector;
       res.json({token: token});
     })
   } else if (result.action === 'parse') {
-    // parseHeroes().then(value => {
-    //   res.json({message: `${value} records updated`})
-    // });
-    parseInvent();
+    if (result.s === 'heroes') { 
+      parseHeroes(result.t).then(value => {
+      res.json({message: `${value} records updated`})
+    });
+    } else if (result.s === 'inventory') {
+      parseInvent(result.t).then((value) => {
+        res.json({message: `${value} records updated`})
+      });
+    } else if (result.s === 'items') {
+      parseItems(result.t).then((value) => {
+        res.json({message: `${value} records updated`})
+      });
+    } else if (result.s === 'players') {
+      parsePlayers(result.t).then((value) => {
+        res.json({message: `${value} records updated`})
+      });
+    }
   }
 })
 

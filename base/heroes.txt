@@ -1,0 +1,117 @@
+1;Abaddon;Strength;23;3;23;1.5;21;2;https://dota2.gamepedia.com//File:Abaddon_icon.png
+2;Alchemist;Strength;25;2.4;22;1.2;25;1.8;https://dota2.gamepedia.com//File:Alchemist_icon.png
+3;Axe;Strength;25;3.4;20;2.2;18;1.6;https://dota2.gamepedia.com//File:Axe_icon.png
+4;Beastmaster;Strength;23;2.9;18;1.6;16;1.9;https://dota2.gamepedia.com//File:Beastmaster_icon.png
+5;Brewmaster;Strength;23;3.7;22;2;14;1.6;https://dota2.gamepedia.com//File:Brewmaster_icon.png
+6;Bristleback;Strength;22;2.9;17;1.8;14;2.8;https://dota2.gamepedia.com//File:Bristleback_icon.png
+7;Centaur Warrunner;Strength;27;4.6;15;1;15;1.6;https://dota2.gamepedia.com//File:Centaur_Warrunner_icon.png
+8;Chaos Knight;Strength;22;3.4;14;2.1;18;1.2;https://dota2.gamepedia.com//File:Chaos_Knight_icon.png
+9;Clockwerk;Strength;26;3.7;13;2.3;17;1.3;https://dota2.gamepedia.com//File:Clockwerk_icon.png
+10;Doom;Strength;26;4;11;0.9;15;2.1;https://dota2.gamepedia.com//File:Doom_icon.png
+11;Dragon Knight;Strength;19;3.6;19;2;15;1.7;https://dota2.gamepedia.com//File:Dragon_Knight_icon.png
+12;Earth Spirit;Strength;21;4.4;17;1.5;18;2.1;https://dota2.gamepedia.com//File:Earth_Spirit_icon.png
+13;Earthshaker;Strength;22;3.7;12;1.4;16;1.8;https://dota2.gamepedia.com//File:Earthshaker_icon.png
+14;Elder Titan;Strength;24;3;14;1.8;23;1.6;https://dota2.gamepedia.com//File:Elder_Titan_icon.png
+15;Huskar;Strength;21;3.1;15;1.4;18;1.5;https://dota2.gamepedia.com//File:Huskar_icon.png
+16;Io;Strength;17;2.5;14;1.6;23;1.7;https://dota2.gamepedia.com//File:Io_icon.png
+17;Kunkka;Strength;24;3.8;14;1.3;18;1.5;https://dota2.gamepedia.com//File:Kunkka_icon.png
+18;Legion Commander;Strength;26;3.3;18;1.7;20;2.2;https://dota2.gamepedia.com//File:Legion_Commander_icon.png
+19;Lifestealer;Strength;25;2.9;18;2.4;15;1.8;https://dota2.gamepedia.com//File:Lifestealer_icon.png
+20;Lycan;Strength;25;3.4;16;1;17;1.4;https://dota2.gamepedia.com//File:Lycan_icon.png
+21;Magnus;Strength;25;3.5;15;2.5;19;1.7;https://dota2.gamepedia.com//File:Magnus_icon.png
+22;Mars;Strength;23;3.2;20;1.9;17;1.4;https://dota2.gamepedia.com//File:Mars_icon.png
+23;Night Stalker;Strength;23;3.2;18;2.3;13;1.6;https://dota2.gamepedia.com//File:Night_Stalker_icon.png
+24;Omniknight;Strength;22;3.6;15;1.8;15;1.8;https://dota2.gamepedia.com//File:Omniknight_icon.png
+25;Phoenix;Strength;21;3.7;12;1.3;18;1.8;https://dota2.gamepedia.com//File:Phoenix_icon.png
+26;Pudge;Strength;25;4;14;1.5;16;1.5;https://dota2.gamepedia.com//File:Pudge_icon.png
+27;Sand King;Strength;22;3.2;19;1.8;19;1.8;https://dota2.gamepedia.com//File:Sand_King_icon.png
+28;Slardar;Strength;21;3.6;17;2.4;15;1.5;https://dota2.gamepedia.com//File:Slardar_icon.png
+29;Spirit Breaker;Strength;29;3.1;17;1.7;14;1.8;https://dota2.gamepedia.com//File:Spirit_Breaker_icon.png
+30;Sven;Strength;23;3.2;21;2;16;1.3;https://dota2.gamepedia.com//File:Sven_icon.png
+31;Tidehunter;Strength;22;3.5;15;1.5;16;1.7;https://dota2.gamepedia.com//File:Tidehunter_icon.png
+32;Timbersaw;Strength;21;3.2;16;1.3;23;2.7;https://dota2.gamepedia.com//File:Timbersaw_icon.png
+33;Tiny;Strength;30;4.1;0;0;17;2.2;https://dota2.gamepedia.com//File:Tiny_icon.png
+34;Treant Protector;Strength;25;4.1;15;2;20;1.8;https://dota2.gamepedia.com//File:Treant_Protector_icon.png
+35;Tusk;Strength;23;3.9;23;2.1;18;1.7;https://dota2.gamepedia.com//File:Tusk_icon.png
+36;Underlord;Strength;25;3.3;12;1.3;17;2.3;https://dota2.gamepedia.com//File:Underlord_icon.png
+37;Undying;Strength;22;2.8;10;0.8;27;2.8;https://dota2.gamepedia.com//File:Undying_icon.png
+38;Wraith King;Strength;22;3.2;18;1.7;18;1.6;https://dota2.gamepedia.com//File:Wraith_King_icon.png
+39;Anti-Mage;Agility;23;1.3;24;3.2;12;1.8;https://dota2.gamepedia.com//File:Anti-Mage_icon.png
+40;Arc Warden;Agility;25;3;15;2.4;24;2.6;https://dota2.gamepedia.com//File:Arc_Warden_icon.png
+41;Bloodseeker;Agility;24;2.7;24;3.1;18;1.7;https://dota2.gamepedia.com//File:Bloodseeker_icon.png
+42;Bounty Hunter;Agility;20;2.5;21;2.6;19;2;https://dota2.gamepedia.com//File:Bounty_Hunter_icon.png
+43;Broodmother;Agility;18;2.8;15;2.8;18;2;https://dota2.gamepedia.com//File:Broodmother_icon.png
+44;Clinkz;Agility;14;1.9;22;3;18;1.7;https://dota2.gamepedia.com//File:Clinkz_icon.png
+45;Drow Ranger;Agility;17;1.9;29;2.8;15;1.4;https://dota2.gamepedia.com//File:Drow_Ranger_icon.png
+46;Ember Spirit;Agility;21;2.6;22;2.1;20;1.8;https://dota2.gamepedia.com//File:Ember_Spirit_icon.png
+47;Faceless Void;Agility;24;2.4;23;3.2;15;1.5;https://dota2.gamepedia.com//File:Faceless_Void_icon.png
+48;Gyrocopter;Agility;22;2.3;19;3.6;19;2.1;https://dota2.gamepedia.com//File:Gyrocopter_icon.png
+49;Juggernaut;Agility;21;2.2;36;2.8;14;1.4;https://dota2.gamepedia.com//File:Juggernaut_icon.png
+50;Lone Druid;Agility;18;2.7;20;2.8;13;1.4;https://dota2.gamepedia.com//File:Lone_Druid_icon.png
+51;Luna;Agility;16;2.2;18;3.6;16;1.9;https://dota2.gamepedia.com//File:Luna_icon.png
+52;Medusa;Agility;15;1.3;22;3.6;19;2.6;https://dota2.gamepedia.com//File:Medusa_icon.png
+53;Meepo;Agility;24;1.8;24;1.8;20;1.6;https://dota2.gamepedia.com//File:Meepo_icon.png
+54;Mirana;Agility;18;2.2;18;3.7;19;1.9;https://dota2.gamepedia.com//File:Mirana_icon.png
+55;Monkey King;Agility;19;2.8;22;3.7;20;1.8;https://dota2.gamepedia.com//File:Monkey_King_icon.png
+56;Morphling;Agility;20;3;24;4.3;13;1.1;https://dota2.gamepedia.com//File:Morphling_icon.png
+57;Naga Siren;Agility;22;2.8;21;3.7;21;2;https://dota2.gamepedia.com//File:Naga_Siren_icon.png
+58;Nyx Assassin;Agility;18;2.5;19;2.5;18;2.1;https://dota2.gamepedia.com//File:Nyx_Assassin_icon.png
+59;Pangolier;Agility;17;2.5;18;3.2;16;1.9;https://dota2.gamepedia.com//File:Pangolier_icon.png
+60;Phantom Assassin;Agility;21;2.2;23;3.4;15;1.4;https://dota2.gamepedia.com//File:Phantom_Assassin_icon.png
+61;Phantom Lancer;Agility;19;2.2;29;3.2;19;2;https://dota2.gamepedia.com//File:Phantom_Lancer_icon.png
+62;Razor;Agility;22;2.6;22;2.1;21;1.8;https://dota2.gamepedia.com//File:Razor_icon.png
+63;Riki;Agility;18;1.9;30;2.5;14;1.3;https://dota2.gamepedia.com//File:Riki_icon.png
+64;Shadow Fiend;Agility;19;2.5;20;3.5;18;2.2;https://dota2.gamepedia.com//File:Shadow_Fiend_icon.png
+65;Slark;Agility;21;1.9;21;1.7;16;1.7;https://dota2.gamepedia.com//File:Slark_icon.png
+66;Sniper;Agility;19;1.7;21;3.1;15;2.6;https://dota2.gamepedia.com//File:Sniper_icon.png
+67;Spectre;Agility;23;2.5;23;2.1;16;1.9;https://dota2.gamepedia.com//File:Spectre_icon.png
+68;Templar Assassin;Agility;19;2.4;23;3.2;20;2;https://dota2.gamepedia.com//File:Templar_Assassin_icon.png
+69;Terrorblade;Agility;15;1.5;22;4.8;19;1.6;https://dota2.gamepedia.com//File:Terrorblade_icon.png
+70;Troll Warlord;Agility;21;2.5;21;2.9;13;1;https://dota2.gamepedia.com//File:Troll_Warlord_icon.png
+71;Ursa;Agility;24;3.3;18;2.4;16;1.5;https://dota2.gamepedia.com//File:Ursa_icon.png
+72;Vengeful Spirit;Agility;19;2.9;27;3.8;13;1.5;https://dota2.gamepedia.com//File:Vengeful_Spirit_icon.png
+73;Venomancer;Agility;19;2.1;26;3.2;19;1.8;https://dota2.gamepedia.com//File:Venomancer_icon.png
+74;Viper;Agility;21;2.4;21;2.5;15;1.8;https://dota2.gamepedia.com//File:Viper_icon.png
+75;Weaver;Agility;16;1.8;14;3.6;13;1.8;https://dota2.gamepedia.com//File:Weaver_icon.png
+76;Ancient Apparition;Intelligence;20;1.9;20;2.2;23;3.4;https://dota2.gamepedia.com//File:Ancient_Apparition_icon.png
+77;Bane;Intelligence;23;2.6;23;2.6;23;2.6;https://dota2.gamepedia.com//File:Bane_icon.png
+78;Batrider;Intelligence;28;2.9;15;1.5;22;2.9;https://dota2.gamepedia.com//File:Batrider_icon.png
+79;Chen;Intelligence;25;2;15;2.1;19;3.2;https://dota2.gamepedia.com//File:Chen_icon.png
+80;Crystal Maiden;Intelligence;18;2.2;16;1.6;14;3.3;https://dota2.gamepedia.com//File:Crystal_Maiden_icon.png
+81;Dark Seer;Intelligence;21;3.1;12;1.8;21;3.1;https://dota2.gamepedia.com//File:Dark_Seer_icon.png
+82;Dark Willow;Intelligence;20;2;18;1.6;18;3.5;https://dota2.gamepedia.com//File:Dark_Willow_icon.png
+83;Dazzle;Intelligence;18;2.5;21;1.7;25;3.7;https://dota2.gamepedia.com//File:Dazzle_icon.png
+84;Death Prophet;Intelligence;19;3.1;14;1.4;21;3.5;https://dota2.gamepedia.com//File:Death_Prophet_icon.png
+85;Disruptor;Intelligence;21;2.4;15;1.4;20;2.9;https://dota2.gamepedia.com//File:Disruptor_icon.png
+86;Enchantress;Intelligence;17;1.7;19;1.8;19;3.6;https://dota2.gamepedia.com//File:Enchantress_icon.png
+87;Enigma;Intelligence;21;2.5;14;1;18;3.9;https://dota2.gamepedia.com//File:Enigma_icon.png
+88;Grimstroke;Intelligence;21;2.4;18;1.9;23;3.8;https://dota2.gamepedia.com//File:Grimstroke_icon.png
+89;Invoker;Intelligence;18;2.4;14;1.9;14;4.6;https://dota2.gamepedia.com//File:Invoker_icon.png
+90;Jakiro;Intelligence;27;2.8;10;1.2;26;3.2;https://dota2.gamepedia.com//File:Jakiro_icon.png
+91;Keeper of the Light;Intelligence;16;2.3;15;1.6;23;3.2;https://dota2.gamepedia.com//File:Keeper_of_the_Light_icon.png
+92;Leshrac;Intelligence;18;2.3;23;2.3;22;3.5;https://dota2.gamepedia.com//File:Leshrac_icon.png
+93;Lich;Intelligence;20;2.1;15;2;20;4.1;https://dota2.gamepedia.com//File:Lich_icon.png
+94;Lina;Intelligence;20;2.2;23;1.8;30;3.7;https://dota2.gamepedia.com//File:Lina_icon.png
+95;Lion;Intelligence;18;2.2;15;1.5;18;3.5;https://dota2.gamepedia.com//File:Lion_icon.png
+96;Nature's Prophet;Intelligence;21;2.6;18;3.3;23;3.3;https://dota2.gamepedia.com//File:Nature%27s_Prophet_icon.png
+97;Necrophos;Intelligence;18;2.8;12;1.3;20;2.9;https://dota2.gamepedia.com//File:Necrophos_icon.png
+98;Ogre Magi;Intelligence;25;3.5;14;1.6;15;2.3;https://dota2.gamepedia.com//File:Ogre_Magi_icon.png
+99;Oracle;Intelligence;20;2.4;15;1.7;21;4;https://dota2.gamepedia.com//File:Oracle_icon.png
+100;Outworld Devourer;Intelligence;19;2.6;24;2;28;3.5;https://dota2.gamepedia.com//File:Outworld_Devourer_icon.png
+101;Puck;Intelligence;17;2.4;22;1.7;23;3.5;https://dota2.gamepedia.com//File:Puck_icon.png
+102;Pugna;Intelligence;19;2;16;1.3;24;5.2;https://dota2.gamepedia.com//File:Pugna_icon.png
+103;Queen of Pain;Intelligence;18;2.3;22;2.2;25;2.9;https://dota2.gamepedia.com//File:Queen_of_Pain_icon.png
+104;Rubick;Intelligence;21;2;23;2.5;25;3.1;https://dota2.gamepedia.com//File:Rubick_icon.png
+105;Shadow Demon;Intelligence;23;2.6;18;2.2;21;3.3;https://dota2.gamepedia.com//File:Shadow_Demon_icon.png
+106;Shadow Shaman;Intelligence;23;2.3;16;1.6;19;3.5;https://dota2.gamepedia.com//File:Shadow_Shaman_icon.png
+107;Silencer;Intelligence;19;2.7;22;3;25;2.9;https://dota2.gamepedia.com//File:Silencer_icon.png
+108;Skywrath Mage;Intelligence;21;2;13;0.8;25;4.1;https://dota2.gamepedia.com//File:Skywrath_Mage_icon.png
+109;Storm Spirit;Intelligence;21;2;22;1.5;23;3.9;https://dota2.gamepedia.com//File:Storm_Spirit_icon.png
+110;Techies;Intelligence;19;2.5;14;1.3;22;3.3;https://dota2.gamepedia.com//File:Techies_icon.png
+111;Tinker;Intelligence;17;2.5;13;1.2;28;3.3;https://dota2.gamepedia.com//File:Tinker_icon.png
+112;Visage;Intelligence;22;2.8;11;1.3;22;2.9;https://dota2.gamepedia.com//File:Visage_icon.png
+113;Warlock;Intelligence;26;3;10;1;25;3.1;https://dota2.gamepedia.com//File:Warlock_icon.png
+114;Windranger;Intelligence;18;3;17;1.4;18;3;https://dota2.gamepedia.com//File:Windranger_icon.png
+115;Winter Wyvern;Intelligence;26;2.6;16;1.9;26;3.6;https://dota2.gamepedia.com//File:Winter_Wyvern_icon.png
+116;Witch Doctor;Intelligence;18;2.3;13;1.4;22;3.3;https://dota2.gamepedia.com//File:Witch_Doctor_icon.png
+117;Zeus;Intelligence;21;2.1;11;1.2;21;3.3;https://dota2.gamepedia.com//File:Zeus_icon.png

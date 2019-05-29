@@ -1,0 +1,260 @@
+1;Animal Courier;50
+2;Clarity;50
+3;Observer Ward;50
+4;Town Portal Scroll;50
+5;Enchanted Mango;70
+6;Faerie Fire;70
+7;Sentry Ward;75
+8;Smoke of Deceit;80
+9;Tango;90
+10;Healing Salve;110
+11;Tome of Knowledge;150
+12;Dust of Appearance;180
+13;Bottle;650
+14;Iron Branch;50
+15;Gauntlets of Strength;135
+16;Mantle of Intelligence;135
+17;Slippers of Agility;135
+18;Circlet;165
+19;Band of Elvenskin;450
+20;Belt of Strength;450
+21;Crown;450
+22;Robe of the Magi;450
+23;Blade of Alacrity;1000
+24;Ogre Axe;1000
+25;Staff of Wizardry;1000
+26;Ring of Protection;175
+27;Quelling Blade;200
+28;Stout Shield;200
+29;Infused Raindrop;225
+30;Orb of Venom;275
+31;Blight Stone;300
+32;Blades of Attack;430
+33;Chainmail;550
+34;Quarterstaff;875
+35;Helm of Iron Will;900
+36;Javelin;1100
+37;Broadsword;1200
+38;Claymore;1400
+39;Mithril Hammer;1600
+40;Magic Stick;200
+41;Wind Lace;250
+42;Ring of Regen;300
+43;Sage's Mask;325
+44;Boots of Speed;500
+45;Gloves of Haste;500
+46;Cloak;550
+47;Ring of Tarrasque;700
+48;Ring of Health;850
+49;Void Stone;850
+50;Gem of True Sight;900
+51;Morbid Mask;900
+52;Shadow Amulet;1400
+53;Ghost Scepter;1500
+54;Blink Dagger;2250
+55;Energy Booster;900
+56;Vitality Booster;1100
+57;Point Booster;1200
+58;Platemail;1400
+59;Talisman of Evasion;1400
+60;Hyperstone;2000
+61;Ultimate Orb;2150
+62;Demon Edge;2200
+63;Mystic Staff;2700
+64;Reaver;3000
+65;Eaglesong;3200
+66;Sacred Relic;3800
+67;Magic Wand;450
+68;Bracer;515
+69;Null Talisman;515
+70;Wraith Band;515
+71;Soul Ring;770
+72;Power Treads (Agility);1450
+73;Power Treads (Intelligence);1450
+74;Power Treads (Strength);1450
+75;Phase Boots;1480
+76;Oblivion Staff;1650
+77;Perseverance;1700
+78;Hand of Midas;2150
+79;Boots of Travel 1;2500
+80;Moon Shard;4000
+81;Boots of Travel 2;4500
+82;Ring of Basilius;500
+83;Headdress;525
+84;Buckler;800
+85;Urn of Shadows;875
+86;Tranquil Boots;1050
+87;Medallion of Courage;1175
+88;Arcane Boots;1400
+89;Drum of Endurance;1625
+90;Vladmir's Offering;1925
+91;Mekansm;2275
+92;Holy Locket;2700
+93;Spirit Vessel;2975
+94;Pipe of Insight;3025
+95;Guardian Greaves;5475
+96;Glimmer Cape;1950
+97;Veil of Discord;2050
+98;Force Staff;2250
+99;Aether Lens;2350
+100;Necronomicon 1;2400
+101;Dagon 1;2700
+102;Eul's Scepter of Divinity;2750
+103;Rod of Atos;2750
+104;Necronomicon 2;3700
+105;Solar Crest;3875
+106;Dagon 2;3950
+107;Orchid Malevolence;4075
+108;Aghanim's Scepter;4200
+109;Nullifier;4700
+110;Necronomicon 3;5000
+111;Refresher Orb;5100
+112;Dagon 3;5200
+113;Scythe of Vyse;5700
+114;Octarine Core;5900
+115;Aghanim's Scepter (Consumable);6200
+116;Dagon 4;6450
+117;Dagon 5;7700
+118;Hood of Defiance;1700
+119;Vanguard;2150
+120;Blade Mail;2200
+121;Aeon Disk;3100
+122;Soul Booster;3200
+123;Crimson Guard;3700
+124;Lotus Orb;4000
+125;Black King Bar;4050
+126;Hurricane Pike;4600
+127;Manta Style;4700
+128;Shiva's Guard;4750
+129;Bloodstone;4900
+130;Linken's Sphere;5050
+131;Heart of Tarrasque;5200
+132;Assault Cuirass;5250
+133;Crystalys;2130
+134;Armlet of Mordiggian;2380
+135;Meteor Hammer;2625
+136;Shadow Blade;2800
+137;Skull Basher;2950
+138;Monkey King Bar;4175
+139;Battle Fury;4400
+140;Ethereal Blade;4700
+141;Radiance;5150
+142;Daedalus;5330
+143;Butterfly;5475
+144;Silver Edge;5550
+145;Divine Rapier;6000
+146;Abyssal Blade;6650
+147;Bloodthorn;7205
+148;Mask of Madness;1775
+149;Dragon Lance;1900
+150;Kaya;2050
+151;Sange;2050
+152;Yasha;2050
+153;Helm of the Dominator;2175
+154;Echo Sabre;2650
+155;Maelstrom;2700
+156;Diffusal Blade;3150
+157;Heaven's Halberd;3450
+158;Desolator;3500
+159;Kaya and Sange;4100
+160;Sange and Yasha;4100
+161;Yasha and Kaya;4100
+162;Satanic;5300
+163;Eye of Skadi;5500
+164;Mjollnir;5600
+165;Aegis of the Immortal;0
+166;Cheese;0
+167;Refresher Shard;0
+168;Greevil Taffy;0
+169;Clove Studded Ham;0
+170;Cocoa with Marshmallows;0
+171;Fruit-bit Cake;0
+172;Gift;0
+173;Greevil Blink Bone;0
+174;Greevil Chow;0
+175;Greevil Treat;0
+176;Greevil Whistle;0
+177;Kringle;0
+178;Snow Mushroom;0
+179;Speed Skates;0
+180;Wizard Cookie;0
+181;Xmas Stocking;0
+182;Greater Clarity;90
+183;Greater Salve;275
+184;Slippers of Halcyon;2075
+185;Arcane Boots II;2450
+186;Greater Clarity;90
+187;Flinching Firecrackers;100
+188;Greater Salve;275
+189;Firework Mine;1000
+190;Scare the Beast;1500
+191;Force Boots;3650
+192;Crimson Guard;5725
+193;Desolator 2;8375
+194;Vermillion Robe;9750
+195;Greater Clarity;90
+196;Greater Salve;275
+197;Book of Strength;0
+198;Book of Agility;0
+199;Book of Intelligence;0
+200;Creed of Omniscience;10
+201;Oblivion's Locket;15
+202;Orb of Passage;0
+203;Pelt of the Old Wolf;30
+204;Paw of Lucius;25
+205;Longclaw's Amulet;35
+206;Bogdugg's Cudgel;45
+207;Bogdugg's Baldric;40
+208;Bogdugg's Lucky Femur;50
+209;Sign of the Arachnid;65
+210;Unhallowed Icon;75
+211;Preserved Skull;60
+212;Treads of Ermacor;90
+213;Rhyzik's Eye;150
+214;Guardian Shell;70
+215;Watcher's Gaze;80
+216;Carapace of Qaldin;130
+217;The Caustic Finale;170
+218;Ogre Seal Totem;30
+219;Cloak of the Bear;30
+220;Winter's Embrace;35
+221;Ice Dragon Maw;40
+222;Precious Egg;45
+223;Ambient Sorcery;35
+224;Gravel Foot;55
+225;Craggy Coat;60
+226;Stonework Pendant;65
+227;Lifestone;50
+228;Amorphotic Shell;75
+229;Violet Blade;70
+230;Slippers of the Abyss;130
+231;Wand of the Brine;110
+232;Glimmerdark Shield;160
+233;Siltbreaker's Dredged Trident;190
+234;Pocket Campfire;300
+235;Prison Cell Key;0
+236;Gallaron's Gamble;750
+237;Book of Agility;0
+238;Book of Intelligence;0
+239;Book of Strength;0
+240;Health Potion;0
+241;Mana Potion;0
+242;Escape Potion;200
+243;Stick o' Dynamite;750
+244;River Vial: Chrome;0
+245;River Vial: Dry;0
+246;River Vial: Slime;0
+247;River Vial: Oil;0
+248;River Vial: Electric;0
+249;River Vial: Potion;0
+250;River Vial: Blood;0
+251;Banana;0
+252;Flying Courier;150
+253;Iron Talon;500
+254;Poor Man's Shield;500
+255;Ring of Aquila;965
+256;Leather Tunic;950
+257;Upgrader;1500
+258;Arcane Ring;1700
+259;The Leveller;2120
+260;Shedd's Cleaver;2650

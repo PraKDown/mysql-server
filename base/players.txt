@@ -1,0 +1,202 @@
+1;balls;Daniel Arnous;Australia;Team Immunity
+2;Godot;Darcy Jose;Australia;Can't Say Wips
+3;r1sk;David Arnous;Australia;
+4;shatan;Alex Chang;Australia;
+5;sLiCKz;Trent Tucker;Australia;EverNovaS
+6;Snoopy;Trong Truong;Australia;
+7;j4;Aliaksei Lipai;Belarus;Power Rangers
+8;Jackal;Maksim Doroschenok;Belarus;Prodota Gaming
+9;Judo;Denis Shedyakov;Belarus;
+10;Moonlight;Vlad Mihteev; Belarus;
+11;Obiwanbanan;Maxim Shedyakov;Belarus;
+12;Sunlight;Kiryl Kachinskiy; Belarus;Prodota Gaming
+13;wejustzik;Oleg Zinovenko;Belarus;
+14;zxc;Vitaly Domostoi;Belarus;Elements Pro Gaming
+15;4DR;Adriano Machado;Brazil;paiN Gaming
+16;Baga;Thárcio Medeiros;Brazil;
+17;Bardo;Lucas Raphael;Brazil;paiN Gaming
+18;KINGRD;Danylo Nascimento;Brazil;paiN Gaming
+19;Klotz;Paulo Nóbrega;Brazil;
+20;Nedbone;Danilo Silva;Brazil;
+21;paradox;Júlio Pires;Brazil;
+22;Chad;Scott Jensen;Canada;
+23;Jubei;Andrew Evelyn;Canada;Team Freedom
+24;TC;Tyler Cook;Canada;Shazam
+25;Wayto;Peter Nguyen;Canada;EverNovaS
+26;2lei;Meng Lei;China;Newbee Young
+27;@yxl;Yang Xiaolei;China;CDEC Gaming
+28;ADD;Xiao Zuoyi;China;CDEC Gaming
+29;Air;Yin Yuxiao;China;HyperGloryTeam
+30;Ame;Wang Chunyu;China;CDEC Gaming
+31;Awoke;Ye Jing;China;
+32;DD;Xie Bin;China;Old Boys
+33;DDDDD;Wu Jingdian;China;CDEC Gaming
+34;ddr;uan Zhenghao;China;TongFu
+35;dogf1ghts;Gao Tianpeng;China;iG Vitality
+36;FaN;Fan Yixuan;China;Newbee Young
+37;Flyby;Su Lei;China;CDEC Gaming
+38;Fran;Xu Zichen;China;iG Vitality
+39;garder;Liu Xinzhou;China;CDEC Gaming
+40;Hym;Xu Zhi;China;Vici Gaming
+41;Icy;Wang Peng;China;FTD club
+42;inflame;He Yongzheng;China;CDEC Gaming
+43;InJuly;Yang Xiaodong;China;iG Vitality
+44;June;Lin Shiyang;China;CDEC Gaming
+45;Kabu;Zhao Kai;China;TongFu
+46;Le;Zhang Xuanhao;China;Newbee Young
+47;Lin;Xu Ziyang;China;TongFu
+48;Lugia;Chen Hang;China;CDEC Gaming
+49;lpc;Luo Puchao;China;TongFu
+50;Luo;Luoi Yinqi;China;CDEC Gaming
+51;Mikasa;Tong Junjie;China;Vici Gaming Reborn
+52;Monet;Du Peng;China;CDEC Gaming
+53;Mrrr;Meng Rui;China;Newbee Young
+54;PrettyHaw;Zhao Jiabin;China;FTD club B
+55;qd;Zhao Shungeng;China;Invictus Gaming
+56;QQQ;Yao Yi;China;
+57;Rong;Chen Jingwu;China;Invictus Gaming
+58;Rabbit;Wang Zhang;China;CDEC Gaming
+59;Sag;Li Guo;China;Newbee Young
+60;SanSheng;Wang Zhaohui;China;
+61;Shiki;Huang Jiwei;China;CDEC Gaming
+62;Sylar;Jio Madayag;China;Vici Gaming
+63;Tutu;Fan Bai;China;
+64;Victoria;Chen Guanhong;China;CDEC Gaming
+65;XDD;Silong Liu;China;HyperGloryTeam
+66;Xtt;Xuntao Xu;China;FTD club
+67;XuaN;Zhang Weixuan;China;iG Vitality
+68;YJ;Yang Pu;China;Vici Gaming Reborn
+69;13abyKnight;Jon Andersen;Denmark;Crescendo
+70;HesteJoe-Rotten;Mikki Junget;Denmark;Danish Bears
+71;Noia;Danny Junget;Denmark;Danish Bears
+72;Ryze;Christoffer Winther;Denmark;Danish Bears
+73;unicornxoxo;Jonathan Arge;Denmark;
+74;Funzii;Thibault Calonne;France;Denial eSports
+75;PARIS;Titouan Merloz;France;
+76;Alex;Alexander Reinhardt;Germany;
+77;Atze;Marcel Binz;Germany;
+78;Cry))asia;David Landmesser;Germany;
+79;Ede;Eduard Birkle;Germany;GOOMBA Gaming
+80;Exist;Metehan Aksüt;Germany;
+81;Kebap;Rene Werner;Germany;
+82;paS;Pascal Lohmeier;Germany;
+83;RMC;Philipp Pausewang;Germany;
+84;rmN;Roman Paley;Germany;Fantastic Five
+85;Keyser Soze;Greg Kallianiotis;Greece;BrooDMotherS
+86;ReaLaxXx;Nikos Kiazolis;Greece;BrooDMotherS
+87;SKANKS224;Giannis Theodoridis;Greece;BrooDMotherS
+88;SkyLark;Xaris Zarifiou;Greece;Ad Finem
+89;ThuG;Dimitris Plivouris;Greece;Ad Finem
+90;Amaz1ng;Daniyar Abdulov;Kazakhstan;NEXT.kz
+91;goddam;Dulat Seidimomyn;Kazakhstan;Power Rangers
+92;Mantis;Ernar Urazbaev;Kazakhstan;sQreen's Squad
+93;Reeves;Nursultan Askerov;Kazakhstan;xGame.kz
+94;Stalcat;Ilya Dorman;Kazakhstan;sQreen's Squad
+95;TOPORRR;Ruslan Bekbosunov;Kazakhstan;NEXT.kz
+96;Watafaka;Alexey Nuzhyn;Kazakhstan;
+97;dabeliuteef;Jun Liong Loh;Malaysia;Can't Say Wips
+98;FzFz;Cheng Hor Siew;Malaysia;
+99;Ice;Chua Chee Cai;Malaysia;
+100;JoHnNy;Cheng Hor Siew;Malaysia;
+101;Kecik Imba;Fadil Bin Mohd Raziff;Malaysia;
+102;kYxY;Lee Kong Yang;Malaysia;
+103;Ling;Sim Woi Cheong;Malaysia;
+104;Net;Wai Pern Lim;Malaysia;Fnatic
+105;Sharky;Raymond Wong Wei Khit;Malaysia;
+106;TooFuckingGood;Daniel Wong Wei Khit;Malaysia;
+107;XtiNcT;Chan Zhan Leong;Malaysia;Mineski
+108;Zyzz;Luis Perez;Mexico;Kingdom Dota
+109;Dutch Freak;Hugo Bos;Netherlands;
+110;Benjaz;Benjamin Lanao;Peru;Not Today
+111;iwo;Iwo Bejar;Peru;Elite Wolves
+112;Jericho;Diego Rivera;Peru;Not Today
+113;Kingteka;Abraham Canez;Peru;Not Today
+114;Leostyle;Leonardo Sifuentes;Peru;Not Today
+115;miHawk;Leonardo Astete;Peru;
+116;Masoku;Alex Dávila;Peru;Elite Wolves
+117;Mstco;Ricardo Román;Peru;Elite Wolves
+118;Nightmare;Steve Amaro;Peru;Not Today
+119;SmAsH;Freddy Sina;Peru;Elite Wolves
+120;Chrissy;Djardel Mampusti;Philippines;Fnatic
+121;Mr.Swish;Marc Parasadas;Philippines;Neolution E-Sport
+122;Owa;Joshua dela Serna;Philippines;
+123;RR;Ralph Richard Peñano;Philippines;
+124;Ryoyr;Ryo Hasegawa;Philippines;Mineski
+125;Ar1se;Turtoi Ionut;Romania;Power Rangers
+126;bOne7;Pittner Armand;Romania;Kaipi
+127;Admiration;Igor Kalnysh;Russia;
+128;androidP;Andrew Pishchikov;Russia;
+129;ArsZeeqq;Arseniy Usov;Russia;
+130;BlowYourBrain;Vladislav Morozyuk;Russia;
+131;Crazy;Oleg Kolesnichenko;Russia;Rebels
+132;Gorec;Ivan Kartankov;Russia;
+133;Jotm;Egor Surkov;Russia;
+134;MeTTpuM;Daniil Gilev;Russia;Rebels
+135;Newb1k;Artern Pivarovich;Russia;sQreen's Squad
+136;Nofear;Alexander Churochkin;Russia;Virtus.pro
+137;Scandal;Roman Sadotenkov;Russia;Team Empire
+138;TpoH;Maksim Vernikov;Russia;
+139;UnderShock;Dimitry Bolshakov;Russia;
+140;Windx;Evgeniy Vlasenko;Russia;
+141;Blah;YuanHing Teh;Singapore;Neolution E-Sport
+142;Meracle;Galvin Kang Jian Wen;Singapore;First Departure
+143;Infinity;Sean Cole;Singapore;
+144;Hachiko;Shawn Ng;Singapore;Neolution E-Sport
+145;LeiAiSher;Chester Lum;Singapore;Neolution E-Sport
+146;xFreedom;Nicholas Kelvin Ileto Lim;Singapore;Singaporean Rejects
+147;xMusica;Justin Yuen;Singapore;Spac_ Creators
+148;xy-;Toh Wai Hong;Singapore;
+149;Pingvincek;Jure Plešej;Slovenia;Danish Bears
+150;Heen;Lee Seung-gon;South Korea;MVP Phoenix
+151;March;Park Tae-won;South Korea;
+152;Reisen;Lee Jun-yeong;South Korea;MVP HOT6ix
+153;SeleCT;Ryoo Kyung Hyun;South Korea;
+154;SunBhie;Jeong Jae Lee;South Korea;Team Freedom
+155;Warlog;Martin Zima;Slovakia;
+156;Apemother;Joel Larsson;Sweden;Taco Life
+157;boomski;Mattias Jonsson;Sweden;
+158;Chrillee;Christopher Wåhlin;Sweden;Lemondogs
+159;cYso;Julius Åberg;Sweden;
+160;Era;Adrian Kryeziu;Sweden;Ninjas in Pyjamas
+161;Xcalibur;Steve Ye;Sweden;
+162;Fishbone;Olle Sjöland Thulin;Sweden;
+163;Floxplox;John Felix Loke Strömqvist;Sweden;
+164;GoAudio;Tobi Strand;Sweden;
+165;jonassomfan;Jonas Lindholm;Sweden;Ninjas in Pyjamas
+166;Limmp;Linus Blomdin;Sweden;compLexity Gaming
+167;Matrim;Sebastian Sundström;Sweden;
+168;Mynuts;Johan Andersson;Sweden;
+169;N0FEAR;Kervin Bardilas;Sweden;
+170;Niqua;Niclas Westergård;Sweden;
+171;Noez;Alexander Blomberg;Sweden;
+172;Pinoy;Alexaner Petterson;Sweden;
+173;Reesion;David Siekas;Sweden;
+174;Rylaes;Johnry Reyes;Sweden;
+175;Sealkid;Elias Merta;Sweden;Ninjas in Pyjamas
+176;strangby;Carl-Philip Strängby;Sweden;
+177;Werne;Marcus Werneskog;Sweden;
+178;Neqroman;Selim Oynar;Turkey;
+179;Bignum;Danil Shekhovtsov;Ukraine;Power Rangers
+180;CeMaTheSlayeR;Semyon Krivulya;Ukraine;Vega Squadron
+181;CHOMY;Stanislav Storozhuk;Ukraine;
+182;Iceberg;Bogdan Vasilenko;Ukraine;Team Spirit
+183;KSi;Sergey Kuzin;Ukraine;
+184;Mag~;Andrew Chipenko;Ukraine;Vega Squadron
+185;WickedSick;Victor Degtyarev;Ukraine;
+186;142;Adam Cooper;United Kingdom;
+187;BananaSlamJamma;Brian Canavan;United States;Enemy
+188;Bdiz;Robert Tinnes;United States;
+189;Eagle;Shane Milke;United States;Team Freedom
+190;FLUFFNSTUFF;Brian Lee;United States;Team FIRE
+191;FLee;Francis Lee;United States;Team Freedom
+192;fROZEN;Ryan Davis;United States;Enemy
+193;Fun;Jason Teodosio;United States;
+194;HANNAHMONTANA;Tony Talavera;United States;
+195;Koreya;David Kim;United States;
+196;Korok;Steven Ashworth;United States;Team Archon
+197;monkeys-forever;Jaron Clinton;United States;Perky Pepperonis
+198;Sneyking;JingJun Wu;United States;Dragneel
+199;Soverejgn;Robert Dodge;United States;Enemy
+200;Tidesoftime;Drew Biessener;United States;
+201;USH;Chris Usher;United States;Digital Chaos
+202;Zfreek;Zakari Freedman;United States;compLexity Gaming
