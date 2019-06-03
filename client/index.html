@@ -53,8 +53,27 @@
           <div class="col-12 text-center">no action</div>
         </div>
     </div>
-    <div>
-      <button class="test">test</button>
+    <div class="adminpanel" style="display: none">
+      <div class="row col-12"><h2 class="text-center text-info col-12 mt-5">Admin panel</h2></div>
+      <div class="row justify-content-around test">
+        <button class="btn btn-warning col-3">test connections</button>
+        <div class="col-4">no action</div>
+      </div>
+      <div class="row justify-content-around mt-5 time">
+        <button class="btn btn-warning col-3">time of last operation</button>
+        <div class="col-4">no action</div>
+      </div>
+      <div class="row justify-content-around mt-5 dump">
+        <button class="btn btn-warning col-3">dump base</button>
+        <div class="col-4">no action</div>
+      </div>
+      <div class="row justify-content-around mt-5 align-items-center indexes">
+        <button class="btn btn-warning col-3">check sizes</button>
+        <div class="col-4">
+          <table class='table table-dark'>
+              <tr><td>name</td><td>size data, mb</td><td>size index, mb</td></tr>
+          </table></div>
+      </div>
     </div>
   </div>
   <script src="./main.js"></script>

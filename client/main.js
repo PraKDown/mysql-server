@@ -11,7 +11,14 @@ const matches_button = document.querySelector('.matches > button');
 const matches_value = document.querySelector('.matches > div');
 const statistics_button = document.querySelector('.statistics > button');
 const statistics_value = document.querySelector('.statistics > div');
-const test_button = document.querySelector('button.test');
+const test_button = document.querySelector('.test > button');
+const test_value = document.querySelector('.test > div');
+const indexes_button = document.querySelector('.indexes > button');
+const indexes_value = document.querySelector('.indexes > div');
+const time_button = document.querySelector('.time > button');
+const time_value = document.querySelector('.time > div');
+const dump_button = document.querySelector('.dump > button');
+const dump_value = document.querySelector('.dump > div');
 let token = '';
 
 async function get(tags) {
@@ -24,6 +31,7 @@ ok.addEventListener('click', () => {
     token = value.token;
     document.querySelector('div.authorization').style.display = 'none';
     document.querySelector('body > div:nth-child(3)').style.display = 'block';
+    if (value.test === 1) document.querySelector('div.adminpanel').style.display = 'block';
   });
 })
 
@@ -77,8 +85,39 @@ statistics_button.addEventListener('click', () => {
 
 test_button.addEventListener('click', () => {
   const tag = `test&t=${token}`;
+  test_value.textContent = 'wait...';
   get(tag).then(value => {
-    console.log(value);
+    test_value.textContent = value.message;
+  })
+})
+
+time_button.addEventListener('click', () => {
+  const tag = `time&t=${token}`;
+  time_value.textContent = 'wait...';
+  get(tag).then(value => {
+    time_value.textContent = value.message;
+  })
+})
+
+dump_button.addEventListener('click', () => {
+  const tag = `dump&t=${token}`;
+  dump_value.textContent = 'wait...';
+  get(tag).then(value => {
+    dump_value.textContent = value.message;
+  })
+})
+
+indexes_button.addEventListener('click', () => {
+  const tag = `indexes&t=${token}`;
+  const names = [];
+  get(tag).then(value => {
+    for (let key in value.message[0]) {
+      names.push(key);
+    }
+    const table = indexes_value.querySelector('table');
+    value.message.forEach(element => {
+      table.innerHTML += `<tr><td>${element[names[0]]}</td><td>${element[names[1]]}</td><td>${element[names[2]]}</td></tr>`;
+    });
   })
 })
 

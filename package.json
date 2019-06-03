@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "cors": "^2.8.5",
+    "mysqldump": "^3.0.0",
     "randombytes": "^2.1.0"
   },
   "devDependencies": {

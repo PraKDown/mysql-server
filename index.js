@@ -5,21 +5,39 @@ const jsdom = require('jsdom');
 const mysql = require('promise-mysql');
 const cryptoRandomString = require('crypto-random-string');
 const download = require('download');
+const mysqldump = require('mysqldump');
 
 const app = express();
 const { JSDOM } = jsdom;
 const connections = {};
 
+let testing = 1;
+let testresult = 0;
+
 async function connect(u, p) {
-  return await mysql.createConnection({
+  const connection = await mysql.createConnection({
     host: '185.127.25.72',
     user: u,
     password: p,
     database: 'gameservice'
-  })
+  });
+  const test = await connection.query(`select test from users where users.name = '${u}' COLLATE utf8mb3_bin;`);
+  await connection.query('SET SESSION profiling = 1;');
+  return [connection, test[0].test];
 }
 
-async function test(token) {
+async function dump(token) {
+  const connection = connections[token];
+  const now = new Date();
+  const name = `${now.getHours()}-${now.getMinutes()}.${now.getDate()}-${now.getMonth()}`;
+  mysqldump({
+    connection: connection.config,
+    dumpToFile: `./dump/${name}.sql`,
+  });
+  return `${name}.sql`;
+}
+
+async function testconnections(token) {
   if (!connections.hasOwnProperty(token)) return;
   let opencoonections = [];
   let i = 0;
@@ -218,6 +236,22 @@ async function generateStatistics(token) {
   return matches.length * 10;
 }
 
+async function checkindexes(token) {
+  const connection = connections[token];
+  return await connection.query(`SELECT table_name AS 'Table',
+  round((data_length / 1024 / 1024), 2) 'Data, MB',
+  round((index_length / 1024 / 1024), 2) 'Index, MB'
+  FROM information_schema.TABLES
+  WHERE table_schema = 'gameservice';
+  `);
+}
+
+async function checktime(token) {
+  const connection = connections[token];
+  const profiles = await connection.query('show profiles;');
+  return profiles[profiles.length-1].Duration;
+}
+
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
@@ -225,13 +259,15 @@ app.use(function(req, res, next) {
 });
 
 app.get('/request', (req, res) => {
+  let test = false;
   const result = req.query;
   console.log(result);
   if (result.action === 'create') {
-    connect(result.u, result.p).then(connector => {
+    connect(result.u, result.p).then(value => {
       const token = cryptoRandomString({length: 10});
-      connections[token] = connector;
-      res.json({token: token});
+      connections[token] = value[0];
+      res.json({token: token, test: value[1]});
+      res.end();
     })
   } else if (result.action === 'parse') {
     if (result.s === 'heroes') { 
@@ -262,9 +298,31 @@ app.get('/request', (req, res) => {
       });
     }
   } else if (result.action === 'test') {
-    test(result.t).then((value) => {
-      res.json({message: `${value} connections`})
-    })
+    if (testing === 1) {
+      testing = 2;
+      res.json({message: 'start test, try again in 5 minutes'});
+      testconnections(result.t).then((value) => {
+        testresult = value;
+        testing = 3;
+      })
+    } else if (testing === 2) {
+        res.json({message: 'test not completed, try again in 5 minutes'});
+    } else {
+      res.json({message: `${testresult} connections`});
+      testing = 1;
+    }
+  } else if (result.action === 'indexes') {
+    checkindexes(result.t).then((value) => {
+      res.json({message: value});
+    });
+  } else if (result.action === 'time') {
+    checktime(result.t).then((value) => {
+      res.json({message: `${value.toFixed(2)}s`});
+    });
+  } else if (result.action === 'dump') {
+    dump(result.t).then((value) => {
+      res.json({message: `${value} create`});
+    });
   }
 })
 
