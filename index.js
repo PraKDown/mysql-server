@@ -1,6 +1,7 @@
 const express = require('express');
 const request = require('request-promise');
 const fs = require('fs');
+const path = require('path');
 const jsdom = require('jsdom');
 const mysql = require('promise-mysql');
 const cryptoRandomString = require('crypto-random-string');
@@ -257,6 +258,14 @@ app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname+'/client/index.html'));
+})
+
+app.get('/main.js', (req, res) => {
+  res.sendFile(path.join(__dirname+'/client/main.js'));
+})
 
 app.get('/request', (req, res) => {
   let test = false;
